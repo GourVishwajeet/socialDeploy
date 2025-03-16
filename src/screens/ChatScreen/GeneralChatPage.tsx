@@ -24,7 +24,7 @@ export default function GeneralPage(){
                     
                   </div>
                  </div>
-                </div>
+            </div>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import Screen2 from "./DisplayPage";
 import { useNavigate } from 'react-router-dom';
 import { RiCloseLargeFill } from "react-icons/ri";
@@ -7,9 +7,10 @@ import { FaRegStar } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 
 const Dialog = () => {
-  const [isDialogOpen, setIsDialogOpen] = useState(true);
+  // const [isDialogOpen, setIsDialogOpen] = useState(true);
+  const isDialogOpen = true;
   const navigate = useNavigate();
-
+  
 
   return (
     <div className="relative h-screen w-screen">

@@ -30,7 +30,7 @@ export default function LanguageDialogpage() {
             <img src={ailogo} className="xl:w-7 xl:h-7 md:w-7 md:h-7" />
 
             <div className="ml-3 md:hidden xl:block">
-              <Textboxsearch />
+              <Textboxsearch  />
             </div>
           </div>
           <div className="flex flex-col xl:ml-8 md:ml-6">
@@ -125,7 +125,7 @@ export default function LanguageDialogpage() {
         </div>
 
         <Languagedialog/>
-           
+  
       </div>
     
   );

@@ -4,7 +4,7 @@ import Textboxsearch from "./Textboxsearch";
 import ailogo from "../../../assets/ailogo.svg";
 import Ellipsis from "../../../assets/Ellipsis.svg";
 import userprofile from "../../../assets/userprofile.svg";
-import { useState } from "react";
+// import { useState } from "react";
 import { IoMdHome } from "react-icons/io";
 import { GoHash } from "react-icons/go";
 import { IoNotificationsOutline } from "react-icons/io5";
@@ -17,7 +17,7 @@ import { CiUser } from "react-icons/ci";
 export default function Sidemenu() {
   const navigate = useNavigate();
   const location = useLocation(); // Get the current route
-  const [isSelected, setIsSelected] = useState(false);
+  // const [isSelected, setIsSelected] = useState(false);
   const menuItems = [
     { name: "Home", icon: <IoMdHome />, path: "/home" },
     { name: "Explore", icon: <GoHash />, path: "/explore" },
@@ -46,7 +46,7 @@ export default function Sidemenu() {
   ];
 
   return (
-    <div className="flex fixed z-40 top-0 left-0 bg-white flex-col border-r-2 border-r-customGray max-w-64 h-screen hidden md:block">
+    <div className=" fixed z-40 top-0 left-0 bg-white flex-col border-r-2 border-r-customGray max-w-64 h-screen hidden md:block">
       {/* Logo and Search Bar */}
       <div className="flex ml-6 mt-2 mb-[8px] xl:mr-10">
         <img

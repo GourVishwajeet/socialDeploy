@@ -22,7 +22,7 @@ export default function Screen2(){
         
       </div>
      </div>
-    </div>
-        </div>
-    )
+ </div>
+    </div>
+)
 }

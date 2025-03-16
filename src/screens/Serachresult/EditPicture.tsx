@@ -8,9 +8,9 @@ import Frame from "../../assets/Frame.svg";
 import DiscardDialog from "./DialogBoxes/DiscardDialog";
 import { RxCrossCircled } from "react-icons/rx";
 import { GoPlusCircle } from "react-icons/go";
-type LocationState = {
-  image?: string;
-};
+// type LocationState = {
+//   image?: string;
+// };
 
 export default function EditPicture() {
   const navigate = useNavigate();

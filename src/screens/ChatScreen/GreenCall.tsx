@@ -25,6 +25,6 @@ export default function GreenCall(){
                     
                   </div>
                  </div>
-                </div>
+             </div>
     </div>)
 }

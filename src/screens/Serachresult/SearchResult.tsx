@@ -1,7 +1,7 @@
 import Sidebar from "./Sidebar"
 import Header from "../Home/homecomponents/Header"
 // import Mainprofile from "../Home/Profile/Mainprofile"
-export default function(){
+export default function SearchResult(){
     return(<div>
            <div>
             <Header/>
