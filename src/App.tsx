@@ -6,7 +6,7 @@ function App() {
 
   return (
   
-      <Router basename="/genai-web/">
+      <Router>
         <HomeRoutes />
       </Router>
     

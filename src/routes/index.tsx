@@ -64,6 +64,7 @@ import ReelsScreen from "../screens/Serachresult/ReelsScreen"
 const HomeRoutes = () => {
     return (
         <Routes>
+            <Route path="/" element={< p>Hello world</p>} />
             <Route path="/home" element={<HomeScreen />} />
             <Route path="/createpostpage" element={<Createpostpage />} />
             <Route path="/audioqrpage" element={<Audioqrpage/>} />
