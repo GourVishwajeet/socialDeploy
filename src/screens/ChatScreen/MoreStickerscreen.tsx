@@ -1,5 +1,5 @@
 import Header from "../Home/homecomponents/Header";
-import Request from "../ChatScreen/Request"
+import Request from "../ChatScreen/request"
 import ChatDisplay from "../ChatScreen/Chatdisplay"
 import ProfilePicture from "../../assets/ProfilePicture.svg";
 import Textboxsearch from "../Home/homecomponents/Textboxsearch";
@@ -14,6 +14,7 @@ import Profile from "../../assets/Profile.svg";
 import More from "../../assets/More.svg";
 import Ellipsis from "../../assets/Ellipsis.svg";
 import MoreSticker from "./MoreSticker";
+import { tempData } from "../../temp/SearchResultData";
 
 
 
@@ -30,7 +31,7 @@ export default function MoreStickerscreen() {
           <img src={ailogo} className="xl:w-7 xl:h-7 md:w-7 md:h-7" />
 
           <div className="ml-3 md:hidden xl:block">
-            <Textboxsearch />
+            <Textboxsearch data={tempData}/>
           </div>
         </div>
         <div className="flex flex-col xl:ml-8 md:ml-6">

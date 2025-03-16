@@ -1,7 +1,11 @@
-import React from "react";
 
-export default function Settings({ selectedOption, setSelectedOption }) {
-  const handleItemClick = (item) => {
+interface SettingsProps {
+  selectedOption: string;
+  setSelectedOption: (option: string) => void;
+}
+
+export default function Settings({ selectedOption, setSelectedOption }: SettingsProps) {
+  const handleItemClick = (item: string) => {
     setSelectedOption(item);
   };
 

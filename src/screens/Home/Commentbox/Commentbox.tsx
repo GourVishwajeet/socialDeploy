@@ -1,4 +1,3 @@
-import React from "react";
 
 import dottt from "../../../assets/dottt.svg";
 import picture from "../../../assets/picture.svg";

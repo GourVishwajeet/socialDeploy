@@ -26,6 +26,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import Messages from "../../assets/Messages.svg";
 import home from "../../assets/home.svg";
 import  EditPicture from "./EditPicture"
+import { tempData } from "../../temp/SearchResultData";
 export default function StoryPage() {
     
   const navigate = useNavigate();
@@ -62,7 +63,7 @@ export default function StoryPage() {
             className="xl:w-7 xl:h-7 md:w-7 md:h-7 cursor-pointer"
           />
           <div className="ml-3 md:hidden xl:block">
-            <Textboxsearch />
+            <Textboxsearch data={tempData}/>
           </div>
         </div>
 

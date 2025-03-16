@@ -4,6 +4,6 @@ import svgr from "vite-plugin-svgr";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/socialDeploy/', // Repo name
+  base: '/socialDeploy/',
   plugins: [react(),svgr()],
 })

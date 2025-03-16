@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Sidemenu from "../Home/homecomponents/Sidemenu";
 // import Header from "../Home/homecomponents/Header";
 import Settings from "./Settings";

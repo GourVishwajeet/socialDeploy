@@ -15,6 +15,7 @@ import Profile from "../../assets/Profile.svg";
 import More from "../../assets/More.svg";
 import Ellipsis from "../../assets/Ellipsis.svg";
 import Languagedialog from "./Languagedialog";
+import { tempData } from "../../temp/SearchResultData";
 
 
 export default function LanguageDialogpage() {
@@ -30,7 +31,7 @@ export default function LanguageDialogpage() {
             <img src={ailogo} className="xl:w-7 xl:h-7 md:w-7 md:h-7" />
 
             <div className="ml-3 md:hidden xl:block">
-              <Textboxsearch  />
+              <Textboxsearch data={tempData} />
             </div>
           </div>
           <div className="flex flex-col xl:ml-8 md:ml-6">

@@ -22,6 +22,7 @@ import camerab from "../../assets/Camerab.svg";
 import Search from "../../assets/Saerch.svg";
 import Setting from "../../assets/settings.svg";
 import Profileonline from "../../assets/Profileonline.svg";
+import { tempData } from "../../temp/SearchResultData";
 
 
 export default function LiveUploading(){
@@ -47,7 +48,7 @@ return(
         <img src={ailogo} className="xl:w-7 xl:h-7 md:w-7 md:h-7"/>
 
         <div className="ml-3 md:hidden xl:block">
-          <Textboxsearch />
+          <Textboxsearch data={tempData}/>
         </div>
       </div>
       <div className="flex flex-col xl:ml-8 md:ml-6">

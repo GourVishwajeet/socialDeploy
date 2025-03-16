@@ -1,18 +1,19 @@
 {
-  "name": "genai-web",
+  "name": "social-deploy", 
   "private": true,
   "version": "0.0.0",
   "type": "module",
 "scripts": {
   "dev": "vite",
-  "build": "tsc -b && vite build",
-  "lint": "eslint .",
+  "build": "vite build",
   "preview": "vite preview",
-  "predeploy": "npm run build",
+  "predeploy": "vite build",
   "deploy": "gh-pages -d dist"
 },
 
-  "homepage": "https://github.com/GourVishwajeet/socialDeploy",
+
+ "homepage": "https://GourVishwajeet.github.io/socialDeploy/"
+,
 
   "dependencies": {
     "@emotion/styled": "^11.14.0",
