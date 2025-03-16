@@ -1,9 +1,10 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import Screen2 from "./DisplayPage";
 import { useNavigate } from 'react-router-dom';
 
 const MyComponent = () => {
-  const [isDialogOpen, setIsDialogOpen] = useState(true);
+  // const [isDialogOpen, setIsDialogOpen] = useState(true);
+  const isDialogOpen = true;
   const navigate = useNavigate();
 
 

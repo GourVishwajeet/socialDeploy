@@ -3,7 +3,7 @@ import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { IoBookmarkOutline } from "react-icons/io5";
 import { LuSend } from "react-icons/lu";
 import { FaRegComment } from "react-icons/fa";
-import { BsThreeDots } from "react-icons/bs";
+// import { BsThreeDots } from "react-icons/bs";
 import Sidemenu from "../Home/homecomponents/Sidemenu";
 import profilepik from "../../assets/profilepik.svg";
 import CommentBox from "./CommentBox"; // ✅ Comment Box Component Import
@@ -17,7 +17,8 @@ const reels = [
 ];
 
 export default function ReelsScreen() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
+  const currentIndex = 0;
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
 
   const [likes, setLikes] = useState(reels.map(() => ({ liked: false, count: 0 })));

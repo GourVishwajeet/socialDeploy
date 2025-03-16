@@ -24,7 +24,7 @@ export default function PrimaryPage(){
                     
                   </div>
                  </div>
-                </div>
+             </div>
         </div>
     )
 }

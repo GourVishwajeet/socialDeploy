@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AiOutlineHeart } from "react-icons/ai";
+// import { AiOutlineHeart } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { BsEmojiSmile } from "react-icons/bs";
 import profilepik from "../../assets/profilepik.svg";

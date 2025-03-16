@@ -24,7 +24,7 @@ export default function ChatDisplayPage(){
                     
                   </div>
                  </div>
-                </div>
+            </div>
         </div>
     )
 }

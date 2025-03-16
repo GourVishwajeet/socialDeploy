@@ -290,7 +290,7 @@ export default function Createpostpage() {
             </div>
           </div>
         </div>
-           
+
       </div>
 
       <Audioqr />*/}

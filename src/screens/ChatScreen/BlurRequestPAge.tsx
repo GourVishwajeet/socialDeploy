@@ -24,7 +24,7 @@ export default function BlurRequestPage(){
                     
                   </div>
                  </div>
-                </div>
+             </div>
         </div>
     )
 }

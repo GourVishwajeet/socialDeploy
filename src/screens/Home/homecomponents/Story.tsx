@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import  { useRef, useState, useEffect } from "react";
 import Avatar from "../../../assets/Avatar.svg";
 import Avatarnext from "../../../assets/Avatarnext.svg";
 import Plusbutton from "../../../assets/Plusbutton.svg";

@@ -25,7 +25,7 @@ export default function Call(){
                     
                   </div>
                  </div>
-                </div>
+             </div>
         </div>
     )
 }

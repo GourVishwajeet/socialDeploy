@@ -24,7 +24,7 @@ export default function OptionChatScreen(){
                     
                   </div>
                  </div>
-                </div>
+            </div>
         </div>
     )
 }
